@@ -1,0 +1,6 @@
+{
+    "jcr:primaryType":"cq:Component",
+    "jcr:title":"Embed",
+    "componentGroup":"Small Element",
+    "allowedParents": ["*/parsys"]
+}

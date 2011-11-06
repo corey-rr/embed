@@ -1,0 +1,14 @@
+{
+    "jcr:primaryType":"cq:Dialog",
+    "title":"Embed",
+    "xtype":"panel",
+    "items":{
+        "jcr:primaryType":"cq:WidgetCollection",
+        "reference":{
+            "fieldLabel":"Embed URL",
+            "xtype":"textfield",
+            "name":"./embedUrl",
+            "jcr:primaryType":"cq:Widget"
+        }
+    }
+}
