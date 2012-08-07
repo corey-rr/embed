@@ -62,7 +62,6 @@ public class EmbedlyService implements EmbedService {
     }
 
     private EmbedResponse getResponse(String url, int maxWidth, int maxHeight) {
-        log.info("here");
         HttpURLConnection connection = null;
         try {
             connection = (HttpURLConnection) requestUrl(url, maxWidth, maxHeight).openConnection();
